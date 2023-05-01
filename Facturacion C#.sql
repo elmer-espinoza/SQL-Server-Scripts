@@ -1,0 +1,23 @@
+/*
+SELECT * FROM [Facturacion].[dbo].[Cliente]
+SELECT * FROM [Facturacion].[dbo].[Producto]
+SELECT * FROM [Facturacion].[dbo].[Categoria]
+SELECT * FROM [Facturacion].[dbo].[Moneda]
+SELECT * FROM [Facturacion].[dbo].[Factura] 
+SELECT * FROM [Facturacion].[dbo].[Detalle] 
+*/
+
+SELECT [Factura_id]
+      ,[Categoria]
+      ,[Razon_social]
+      ,[Ruc]
+      ,[Fecha]
+      ,[Moneda]
+      ,[Total_Valor_Venta]
+      ,[Total_Impuestos]
+      ,[Total_Factura]
+      ,[Secuencia]
+      ,[Producto]
+      ,[Cantidad]
+      ,[Precio_Unitario]
+  FROM [Facturacion].[dbo].[Facturacion]
